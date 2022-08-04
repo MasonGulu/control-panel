@@ -51,3 +51,6 @@ Definitions of terms used as parameter names:
   * `func` in `addEventListener` will be passed all parameters except name from the event.
 * `range`, 1D table of {min, max}
 * `labels`, 1D table of any length containing string representable data.
+
+## Issues
+On craftos-pc the palette is only occasionally applied successfully, no idea what's wrong with it.

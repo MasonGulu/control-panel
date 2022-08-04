@@ -357,7 +357,7 @@ function cp.new(side)
     local dev = window.create(mon, pos[1], pos[2], 1, 1)
     function self.draw()
       dev.setVisible(false)
-      dev.setBackgroundColor(colors.purple)
+      dev.setBackgroundColor(color.frame)
       if value then
         dev.setTextColor(color.bright)
       else
