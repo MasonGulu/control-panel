@@ -1,8 +1,9 @@
- 
+# Control Panels
 Control panel library for making control panels on monitors
 
 specifically designed for monitors and control panels. no text input.
 
+## Example
 ```lua
 local cp = controlpanel.new("top")
 
@@ -22,6 +23,10 @@ end)
 cp.start()
 ```
 
+## This library depends on pixelbox for Meters and Knobs
+https://github.com/9551-Dev/apis/blob/main/pixelbox.lua
+
+## Random notes that will be helpful when you use this
 each object contains `draw`, many data containing objects have `get` and `set`.
 
 each object should claim a click area.

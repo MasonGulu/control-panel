@@ -1,5 +1,7 @@
 local cp = {}
 
+
+--- TODO redo the color system, it sucks
 local palette = {
   [colors.orange]=0xfb2727, -- bright red
   [colors.red]=0x832a2a, -- dark red
@@ -46,13 +48,6 @@ cp.colors = {
     label=colors.white, -- label color
     text=colors.black, -- text color
   },
-  -- black = { TODO
-  --   dim=colors.red, -- dark color
-  --   bright=colors.orange, -- lit color
-  --   frame=colors.lightGray, -- frame color (area around button)
-  --   label=colors.white, -- label color
-  --   text=colors.black, -- text color
-  -- },
 }
 
 function cp.new(side)
