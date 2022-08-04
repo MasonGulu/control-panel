@@ -125,7 +125,7 @@ function cp.new(side)
     for k,v in pairs(palette) do
       mon.setPaletteColor(k,v)
     end
-    mon.setTextScale(1)
+    mon.setTextScale(0.5)
     mon.setBackgroundColor(colors.purple) -- beige background
     mon.clear()
     startTimers()
